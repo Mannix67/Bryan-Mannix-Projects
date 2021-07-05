@@ -21,6 +21,8 @@ corrorlated.
 
 To see the exact corrorlation between gross profit and budget, i used the pearson correlation coefficient.the most common method to use for numerical variables; it assigns a value between − 1 and 1, where 0 is no correlation, 1 is total positive correlation, and − 1 is total negative correlation.  As you can see, there is a high corolation between gross revenue and magnitude of the budget at 0.712
 
+
+
  
 
 
