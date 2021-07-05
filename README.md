@@ -18,22 +18,20 @@ To see the exact correlation between gross profit and budget, i used the Pearson
 
 ![Screenshot (117)](https://user-images.githubusercontent.com/84920516/124490915-90e46c80-ddaa-11eb-9e99-d7dc306372e1.png)
 
-
+I used a heat map to make the correlations easier to see, black for low correlation, brighter colors for high correlation. As we can see, the budget does have the highest correlation, which means my prediction is correct so far. Votes also had a very high correlation to high gross profit.  However, these are only for the numeric features. Other string features still have to be measured for correlation which I will do so by changing them to numeric features. 
 
 ![Screenshot (118)](https://user-images.githubusercontent.com/84920516/124492037-d5bcd300-ddab-11eb-95d7-4c03ec6c3046.png)
 
-I used a heat map to make the correlations easier to see. Black low correlation, brighter colors for high. As we can, see Budget does have the highest corolation 
-which means my prediction is correct so far, Votes also had a very high corrolation to high gross profit. 
-However these are only for the numeric features. There are other string features which still have to measured for corolation which i will do so by changing them to numeric features. 
+Before and after pic of the tables, I changed string variables to numeric variables to analyze their correlation. 
 
 ![Screenshot (121)](https://user-images.githubusercontent.com/84920516/124493102-2680fb80-ddad-11eb-8704-48e9f6b363ec.png)
 ![Screenshot (122)](https://user-images.githubusercontent.com/84920516/124493126-2f71cd00-ddad-11eb-81b6-68dd7f316366.png)
 
-Before and after pic of the tables. String to numerized so i could analyse their corelation. 
+As you can see with the graph involving all factors. Budget and votes still have the highest correlation with high gross profit. 
 
 ![Screenshot (123)](https://user-images.githubusercontent.com/84920516/124493437-8c6d8300-ddad-11eb-9ff1-402b66c370bb.png)
 
-As you can see with the graph involving all factors. Budget and votes still have the highest corrolation with high gross profit. 
+
 
 
 
