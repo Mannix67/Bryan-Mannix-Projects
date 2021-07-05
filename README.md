@@ -1,27 +1,24 @@
 # Bryan-Mannix-Python movie cororolation project 
- #In this project we will be working in Python to find correlations between variables. to do this, i downloaded a movie data set from kaggle that deals
-# with many different variables. I thought it would be interesting to use tools within python to see what factor is the most influencial in ensuring a 
-# movie makes a high gross profit. 
+
+In this project, we will be working in Python to find correlations between variables. To do this, I downloaded a movie data set from Kaggle that deals with many different variables. I thought it would be interesting to use tools within Python to see what factor is the most influential in ensuring a movie makes a high gross profit.
+
+The following are the different factors that the data set comprises: Budget, company, country, director, genre, gross, name, rating, release date,  runtime,  score star, votes, writer, year.  My task is to find which one of these has the highest correlation with gross profit. 
 
 ![Screenshot (111)](https://user-images.githubusercontent.com/84920516/124481886-abb1e380-dda0-11eb-8bab-10eeabfa58b4.png)
-#budget company country    director  genre  gross name rating  released runtime score star votes writer year    
-#These are the different factors that data set composed of. My job is to find which one of thse has the highest corrorlation with gross profit. 
+
+I then went about cleaning the data. I first looked to see if there was data missing and found that there wasn't. I then changed the data type for budget and gross to make it look better while also sorting the columns. I also dropped any duplicates.  Now the data was ready to plot on a graph.
 
 ![Screenshot (112)](https://user-images.githubusercontent.com/84920516/124483502-51b21d80-dda2-11eb-989c-43661f9e009b.png)
 
-#I then went about cleaning the data. I first looked to see if there was data missing and found that there wasn't. I then changed the data type for budget and gross 
-to make it look better while also sorting the columbns.I also dropped any duplicates. 
-Now the data was ready to plot on a graph. 
+I have a prediction that a high budget correlates with high gross profit. To see if this was the case, I used seaborn sns. regplot scatter plot to see if there was a clear correlation. At first glance at the graph, it is clear that budget and gross profit are correlated. 
 
 ![Screenshot (115)](https://user-images.githubusercontent.com/84920516/124487908-254cd000-dda7-11eb-9b0f-68e68639c1b4.png)
 
-I have a prediction that high budget corolates with high gross profit. to see if this was the case, i used seaborn 
-sns.regplot scatter plot to see if there was a clear correlation. At first glance of the graph, it is clear that budget and gross profit are 
-corrorlated. 
+To see the exact correlation between gross profit and budget, i used the Pearson correlation coefficient. The most common method for numerical variables is assigning a value between − 1 and 1, where 0 is no correlation, 1 is a total positive correlation, and − 1 is an absolute negative correlation.  As you can see, there is a high correlation between gross revenue and the magnitude of the budget at 0.712. I included other variables, including score, run time, year, and votes, to see a higher correlation than budget. 
 
 ![Screenshot (117)](https://user-images.githubusercontent.com/84920516/124490915-90e46c80-ddaa-11eb-9e99-d7dc306372e1.png)
 
-To see the exact corrorlation between gross profit and budget, i used the pearson correlation coefficient.the most common method to use for numerical variables; it assigns a value between − 1 and 1, where 0 is no correlation, 1 is total positive correlation, and − 1 is total negative correlation.  As you can see, there is a high corolation between gross revenue and magnitude of the budget at 0.712. I included other variables including score, run time, year, and votes to see they might have a higher coororlation than budget. 
+
 
 ![Screenshot (118)](https://user-images.githubusercontent.com/84920516/124492037-d5bcd300-ddab-11eb-95d7-4c03ec6c3046.png)
 
