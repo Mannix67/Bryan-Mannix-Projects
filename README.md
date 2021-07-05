@@ -13,7 +13,15 @@
 to make it look better while also sorting the columbns.I also dropped any duplicates. 
 Now the data was ready to plot on a graph. 
 
+![Screenshot (115)](https://user-images.githubusercontent.com/84920516/124487908-254cd000-dda7-11eb-9b0f-68e68639c1b4.png)
 
+I have a prediction that high budget corolates with high gross profit. to see if this was the case, i used seaborn 
+sns.regplot scatter plot to see if there was a clear correlation. At first glance of the graph, it is clear that budget and gross profit are 
+corrorlated. 
+
+To see the exact corrorlation between gross profit and budget, i used the pearson correlation coefficient.the most common method to use for numerical variables; it assigns a value between − 1 and 1, where 0 is no correlation, 1 is total positive correlation, and − 1 is total negative correlation.  As you can see, there is a high corolation between gross revenue and magnitude of the budget at 0.712
+
+ 
 
 
 
