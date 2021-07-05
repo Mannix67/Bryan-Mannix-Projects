@@ -34,6 +34,9 @@ However these are only for the numeric features. There are other string features
 
 Before and after pic of the tables. String to numerized so i could analyse their corelation. 
 
+![Screenshot (123)](https://user-images.githubusercontent.com/84920516/124493437-8c6d8300-ddad-11eb-9ff1-402b66c370bb.png)
+
+As you can see with the graph involving all factors. Budget and votes still have the highest corrolation with high gross profit. 
 
 
 
