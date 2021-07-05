@@ -7,6 +7,10 @@
 #budget company country    director  genre  gross name rating  released runtime score star votes writer year    
 #These are the different factors that data set composed of. My job is to find which one of thse has the highest corrorlation with gross profit. 
 
+![Screenshot (112)](https://user-images.githubusercontent.com/84920516/124483502-51b21d80-dda2-11eb-989c-43661f9e009b.png)
+
+#I then went about cleaning the data 
+
 
 
 
