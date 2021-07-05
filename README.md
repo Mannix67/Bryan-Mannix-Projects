@@ -9,7 +9,13 @@
 
 ![Screenshot (112)](https://user-images.githubusercontent.com/84920516/124483502-51b21d80-dda2-11eb-989c-43661f9e009b.png)
 
-#I then went about cleaning the data 
+#I then went about cleaning the data. I first looked to see if there was data missing and found that there wasn't. I then changed the data type for budget and gross 
+to make it look better while also sorting the columbns.I also dropped any duplicates. 
+Now the data was ready to plot on a graph. 
+
+
+
+
 
 
 
