@@ -29,6 +29,11 @@ I used a heat map to make the correlations easier to see. Black low correlation,
 which means my prediction is correct so far, Votes also had a very high corrolation to high gross profit. 
 However these are only for the numeric features. There are other string features which still have to measured for corolation which i will do so by changing them to numeric features. 
 
+![Screenshot (120)](https://user-images.githubusercontent.com/84920516/124492772-d0ac5380-ddac-11eb-8e43-abc140bd2235.png)
+
+![Screenshot (119)](https://user-images.githubusercontent.com/84920516/124492794-d6a23480-ddac-11eb-9cf1-bf8478968a7d.png)
+
+
 
 
 
